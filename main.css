@@ -1,8 +1,17 @@
 
 img {
 	height: 225px;
-	margin: 15px;
+	margin: 5px;
+}
 
+body {
+	height: 250px;
+	width: 800px;
+	border: 1px solid lightgray;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	
 }
 
 li.octocat {
@@ -10,21 +19,35 @@ li.octocat {
 }
 
 .image-number {
-	color: gray;
+	color: lightgray;
 	font-size: 10px;
 }
 
 .image-caption {
-	font-size: 10px;	
+	font-size: 10px;
+	float: right;
+	color: gray;
+
 
 }
 
 .octocat img {
-	border: 3px solid gray;
+	border: 1px solid lightgray;
 	
 }
+.image-caption a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+}
 .authors img {
-	height: 20px;
+	height: 15px;
 	font-size: 10 px;
 	border: none;
+
+}
+
+ul {
+	list-style: none;
 }

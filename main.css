@@ -1,0 +1,22 @@
+
+.octocat img {
+	height: 225px;
+	float: left;
+	
+
+}
+
+.authors img {
+	height: 20px;
+	font-size: 10 px;
+}
+
+.image-number {
+	color: gray;
+	font-size: 10px;
+}
+
+.image-caption {
+	font-size: 10px;
+
+}

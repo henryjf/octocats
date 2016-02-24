@@ -1,14 +1,12 @@
 
-.octocat img {
+img {
 	height: 225px;
-	float: left;
-	
+	margin: 15px;
 
 }
 
-.authors img {
-	height: 20px;
-	font-size: 10 px;
+li.octocat {
+	float: left;
 }
 
 .image-number {
@@ -17,6 +15,16 @@
 }
 
 .image-caption {
-	font-size: 10px;
+	font-size: 10px;	
 
+}
+
+.octocat img {
+	border: 3px solid gray;
+	
+}
+.authors img {
+	height: 20px;
+	font-size: 10 px;
+	border: none;
 }
